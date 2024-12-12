@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+body {
+    background-image: url('images/bg.png');
+}
+
+.yyyy {
+    position: sticky;
+    top: 0px;
+    z-index: 11;
+}
+
+.logo {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.memu {
+    text-align: center;
+    background-color: black;
+    /* height: auto;
+    position: sticky;
+    top: 0px;
+    z-index: 11; */
+}
+
+.memu ul li {
+    display: inline-block;
+}
+
+.memu ul li a {
+    display: block;
+    width: 70px;
+    height: 50px;
+    line-height: 50px;
+    padding: 10px;
+    color: beige;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.memu ul li a:hover {
+    background-color: darkgray;
+}
+
+/* 플롯팅버튼 */
+
+.floating {
+    position: fixed;
+    top: 30px;
+    right : 50px;
+    width: 50px;
+    height: 40px;
+    background-color: red;
+    text-align: center;
+    line-height: 40px;
+    z-index: 20;
+}
+
+
+/* 슬라이드 */
+article {
+    background-color: #fff;
+    /* margin: 20px 0px; */
+    padding: 20px 0px;
+}
+
+.slide {
+    background-color: #fff;
+    overflow: hidden;
+    width: 960px;
+    margin: 30px auto;
+    /* box-sizing: border-box; */
+    /* margin-top: 20px; */
+}
+
+.slide > li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    /* margin: 30px 0px;     */
+    /* box-sizing: border-box; */
+}
+
+/* 서브메뉴 */
+
+.sub-memu {
+    position: sticky;
+    top: 170px; /* 바뀌는 지점에 도달했을때를 기록,
+                 300px라고 하면 300px에 걸려서 움직임 */
+    z-index: 10;
+    text-align: center;
+}
+
+.sub-memu > ul >li {
+    display: inline-block;
+}
+
+.sub-memu > ul > li > a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+/* 메인영역 */
+
+section {
+    position: relative;
+    width: 700px;
+    margin: 0 auto;
+}
+
+aside.left {
+    position: absolute;
+    left: -300px;
+    top: 0px;
+}
+
+aside.right {
+    position: absolute;
+    right: -300px;
+    top: 0px;
+}
+
+aside img {
+    display: block;
+    margin-top: 20px ;
+}

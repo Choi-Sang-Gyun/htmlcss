@@ -1,0 +1,164 @@
+/* 헤더 디자인 */
+/* 디자인을 커스터마이징 할때
+1. 동일 클래스명을 선언하고, 속성을 지정 */
+
+.form-control {
+    border-radius: 0;
+}
+
+.form-control:focus {
+    border-color: #e3e3e3;
+    box-shadow: none; 
+}
+
+.btn {
+    border-radius: 0;
+}
+
+/* 헤더 디자인 */
+/* 디자인을 커스터마이징 할때
+1. 동일 클래스명을 선언하고, 속성을 지정 */
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #263238;
+    border-color: #263238;
+}
+
+
+
+
+.navbar-inverse {
+    background-color: #263238;
+    border-color: #263238;
+}
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    padding: 10px 20px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    background-color: #4e6b79;
+}
+
+/* 슬라이드 영역 */
+.main-article {
+    margin-top: 50px;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+/* 본문 영역 */
+.main-section {
+    margin-top: 50px;
+}
+
+.prod-list {
+    border: 1px solid #777;
+    padding: 5px;
+}
+
+.prod-list .prod-link {
+    border: 1px solid #777;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+/* col- 이 포함된 li 태그 전부(* 이게 전부를 뜻함) */
+.prod-list > li[class*=col-] {
+    padding: 5px;
+}
+
+.prod-list .prod-link > .arrow {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    background-color: #e3e3e3;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.prod-list .prod-link > .hover {
+    background-color: #50a0ff;
+    opacity: 0; 
+}
+
+/* opacity 불투명, 1이 최대, 0이면 안보임, 1이면 진함 */
+
+.prod-link:hover {
+    border: 1px solid #50a0ff;
+}
+
+.prod-link:hover > .hover {
+    opacity: 1;
+}
+
+
+/* 과제 */
+.shose-priceox {
+    overflow: hidden;
+    
+}
+
+.shose-name {
+    
+    float: left;
+    margin-left: 10px;
+}
+
+.shose-list > .shose-link > .shose-name > span {
+    display: block;
+}
+
+.shose-price {
+    float: right;
+}
+
+.shose-link:hover {
+    border: 1px solid black;
+}
+
+.shose-link:hover > .plus-shoes ul {
+    opacity: 1;
+}
+
+.plus-shoes > ul {
+    opacity: 0;
+    width: 25%;
+    display: inline;
+    box-sizing: border-box;
+}
+
+.plus-shoes > ul > li {
+    display: inline;
+}
+
+
+
+
+
+
+
+

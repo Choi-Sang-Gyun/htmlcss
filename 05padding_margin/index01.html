@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        body {
+            background-image: url('img2/bg_grid.jpg');
+        }
+
+        p {
+            width: 600px;
+            height: 100px;
+            border: 1px solid #777;
+            background-color: aqua;
+
+
+            /* padding: 30px; */ /* 전체 여백 */
+            /* padding: 10px 20px; */ /* 첫번째는 위아래, 두번째는 좌우 */
+            /* padding: 10px 20px 30px; */ /* 첫번째는 위, 두번째는 좌우, 세번째는 아래 */
+            /* padding: 10px 20px 30px 40px; */ /* 첫번째는 위, 두번째는 오른쪽, 세번째는 아래, 네번째는 왼쪽 / 시계방향으로 돌아감 */
+            padding-top: 10px;
+            padding-right: 20px;
+            padding-bottom: 30px;
+            padding-left: 40px;
+
+            /* box-sizing: content-box; */ /* 기본값 - 박스크기 (너비 +패딩 + 윤곽) */
+            box-sizing: border-box; /* 박스크기 (너비) 로만 결정 */
+        }
+    </style>
+</head>
+<body>
+    
+    <p>
+        패딩이란 <br>
+        윤곽 기준으로 안쪽 여백입니다.
+        박스크기 ( width + padding(양옆) + border(윤곽) )
+
+    </p>
+
+
+
+</body>
+</html>

@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+.title {
+    width: 70%;
+    margin: 15px auto;
+   
+}
+
+.mainbox {
+    border-top: 1px solid #cfcfcf;
+    padding: 20px 0;
+    overflow: hidden;
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+.mainbox > .mainimg {
+    display: inline-block;
+}
+
+.mainbox > .maintext {
+    display: inline-block;
+}
+
+.maingbox > .left {
+    float: left;
+    width: 50%;
+}
+
+.mainbox > .right {
+    float: right;
+    width: 50%;
+}
+
+.mainbox > .maintext >.maincontent p:nth-child(1) {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.mainbox > .maintext >.maincontent p:nth-child(2) {
+    font-size: 30px;
+    font-weight: 900;
+    border-top: 1px solid #cfcfcf;
+    border-bottom: 1px solid #cfcfcf;
+    padding: 10px 0;
+}
+
+.mainbox > .maintext >.maincontent p:nth-child(3) {
+    font-size: 14px;
+    font-weight: 200;
+    color: #8a8a8a;
+    margin-top: 10px;
+}
+
+.mainbox > .maintext >.maincontent { 
+    margin-bottom: 70px;
+}
+
+.mainbox > .maintext > .mainaddprice {
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.mainbox > .maintext > .mainaddprice > .left {
+    float: left;
+    width: 50%;
+}
+
+.mainbox > .maintext > .mainaddprice > .right {
+    float: right;
+    width: 50%;
+}
+
+.mainbox > .maintext > .mainbutton {
+    overflow: hidden;
+    
+}
+
+.mainbox > .maintext > .mainbutton > .left {
+    float: left;
+    width: 50%;
+    height: 60px;
+    font-size: 18px;
+    border: 1px solid #bbbbbb;
+}
+
+.mainbox > .maintext > .mainbutton > .right {
+    float: right;
+    width: 50%;
+    height: 60px;
+    font-size: 18px;
+    background-color: #337ab7;
+    color: white;
+    border-color: #2e6da4;
+}
+
+.mainbox > .maintext > .mainbutton > .left:hover {
+    border-color: black;
+}
+
+.mainbox > .maintext > .mainbutton > .right:hover {
+    background-color: #255885;
+}
+
+/* 상품 상세 */
+.detail-box {
+    min-height: 350px; /* 350이하로는 떨어지지 않고 내용이 가변됩니다 */
+}
+
+
+.detail-box > .title2 {
+    font-size: 25px;
+}
+
+.detail-box > .price {
+    font-size: 28px;
+    font-weight: 600;
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+    padding: 8px 0 ;
+}
+
+.detail-box > .delivery {
+    color: #777;
+}
+
+.detail-control {
+    margin-top: 20px;
+}
+
+.detail-control > .price {
+    overflow: hidden;
+}
+
+.detail-control > .price > .left {
+    float: left;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.detail-control > .price > .right {
+    float: right;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.detail-control > .order {
+    overflow: hidden;
+}
+
+.detail-control > .order > .left {
+    float: left;
+    width: 50%;
+    border: 1px solid #e3e3e3;
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.detail-control > .order > .right {
+    float: right;
+    width: 50%;
+    border: 1px solid #4040f8;
+    background-color: #4040f8;
+    color: white;
+    padding: 10px 0;
+}
+
+.detail-control > .order > .left:hover {
+    border: 1px solid #000;
+}
+
+.detail-control > .order > .right:hover {
+    background-color: #262691;
+}
